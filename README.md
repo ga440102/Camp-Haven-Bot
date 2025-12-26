@@ -38,16 +38,18 @@ Before you begin, ensure you have met the following requirements:
     ```
 
 3.  **Configure Environment**:
-    Create a `.env` file in the root directory:
+    Create a `wallets.txt` file in the root directory:
 
     ```bash
-    touch .env
+    touch wallets.txt
     ```
 
-    Open `.env` and add your private keys (comma-separated, no spaces):
+    Open `wallets.txt` and add your private keys (comma-separated, no spaces):
 
     ```ini
-    PRIVATE_KEYS=0xYOUR_PRIVATE_KEY_1,0xYOUR_PRIVATE_KEY_2,0xYOUR_PRIVATE_KEY_3
+    PRIVATE_KEY_1
+    PRIVATE_KEY_2
+    PRIVATE_KEY_3
     ```
 
 ---
