@@ -7,7 +7,7 @@ A professional, multi-wallet automation tool for **Camp Haven**. This bot uses a
 ## ✨ Features
 
 - **🛡️ Firewall Bypass:** Uses a stealth headless browser to perform the TLS handshake and login, bypassing `403 Forbidden` and Cloudflare protections.
-- **🔑 Multi-Wallet Support:** Handle unlimited wallets via a single `.env` file.
+- **🔑 Multi-Wallet Support:** Handle unlimited wallets via a single `wallets.txt` file.
 - **✍️ Auto-SIWE:** Automatically signs "Sign-In With Ethereum" messages using your private keys.
 - **📅 Daily Tasks:**
   - Performs Daily Check-ins automatically.
